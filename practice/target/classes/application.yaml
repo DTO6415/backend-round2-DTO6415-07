@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: practice
+    algorithm: "bcrypt"
+    passwordMinLength: 8
+    usernameregex: "^[a-zA-Z0-9]{3,}$"
+  datasource:
+    url: jdbc:mysql://localhost:3306/backend_t7
+    username: root
+    password: qiaoyiran5302
+    driver-class-name: com.mysql.cj.jdbc.Driver
+jwt:
+  secret: "a3f1c9e7b52d8460f7e2a1c4d9b63850e4f7a2c1d8b5e69307f4a2c6d1e8b590"
+  expirationtime: 60000
